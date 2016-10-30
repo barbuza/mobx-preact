@@ -1,6 +1,6 @@
 {
   "name": "mobx-preact",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "Preact bindings for MobX",
   "main": "lib/index.js",
   "scripts": {
@@ -28,7 +28,7 @@
   "dependencies": {
     "hoist-non-react-statics": "^1.2.0",
     "invariant": "^2.2.1",
-    "preact-classless-component": "^1.0.4"
+    "preact-classless-component": "git://github.com/barbuza/preact-classless-component#92f6f75b2f3e8d935e005b09c5626f4db9d2e551"
   },
   "devDependencies": {
     "@types/core-js": "^0.9.34",
