@@ -1,6 +1,6 @@
 {
   "name": "mobx-preact-alt",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Preact bindings for MobX",
   "main": "lib/index.js",
   "scripts": {
