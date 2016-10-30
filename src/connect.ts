@@ -51,7 +51,6 @@ function connect (arg1: string | any, arg2 = null): any {
 
 	const target = componentClass.prototype || componentClass;
 
-    console.debug('Lifecycle triggered')
 	lifecycleMethods.forEach(funcName => patch(target, funcName));
 
 	if (!target.shouldComponentUpdate) {
